@@ -40,7 +40,7 @@ elif ingresa==2:
     a=int(input())
     print("ahora ingrese su rut sin el digito verificador y sin puntos ni guion")
     rut=int(input())
-    if rut > len(1) and rut < len(7):
+    if rut < len(7) and rut > len(9):
         print("invalido")
     elif rut > len(8) and rut < len(9):
         print("guardado")
