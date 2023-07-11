@@ -40,9 +40,9 @@ elif ingresa==2:
     a=int(input())
     print("ahora ingrese su rut sin el digito verificador y sin puntos ni guion")
     rut=int(input())
-    if rut > 1 and rut < 7:
+    if rut > len(1) and rut < len(7):
         print("invalido")
-    elif rut > 8 and rut <=9:
+    elif rut > len(8) and rut < len(9):
         print("guardado")
         ruts.append(rut)
         if a==1 and a==2 and a==3 and a==4 and a==5 and a==6 and a==7 and a==8 and a==9 and a==10 and b=="a":
