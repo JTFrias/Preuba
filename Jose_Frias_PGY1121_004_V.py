@@ -76,3 +76,4 @@ elif ingresa==5:
       print(nombres(1))
       print(apellidos(1))
       print(hoy)
+#en el py se me olvido el len en la part 43 y 45
